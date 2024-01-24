@@ -1,0 +1,8 @@
+﻿  02_대입연산이해.c
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(52,25): warning C4311: '형식 캐스트': 'int [4]'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(53,29): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(57,31): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(80,41): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(81,42): warning C4311: '형식 캐스트': 'int **'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\1229\02_대입연산이해.c(82,43): warning C4311: '형식 캐스트': 'int ***'에서 'int'(으)로 포인터가 잘립니다.
+  1229.vcxproj -> C:\Users\jjy02\OneDrive\바탕 화면\C언어\1229\x64\Debug\1229.exe
