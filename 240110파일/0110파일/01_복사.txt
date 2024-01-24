@@ -1,0 +1,108 @@
+// 01_파일 열기 닫기.c
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+void exam1();
+void exam2();
+void exam3();
+void exam4();
+
+int main()
+{
+	exam4();
+	
+	return 0;
+}
+
+// 파일 열기와 모드 : fopen, fopen_s
+/*
+w : 쓰기 - 무조건 성공 (파일X -> 생성), if (파일 O -> 파일내용 초기화)
+a : 쓰기 - 무조건 성공 (파일X -> 생성), if (파일 O -> 파일내용 유지)
+r : 읽기 -		       (파일X -> 오류), if (파일 O -> 성공)
+*/
+void exam1()
+{
+	FILE* fp;
+//	fp = fopen("aaa.txt", "w");
+	int  ret = fopen_s(&fp, "aaa.txt", "r");
+	if (ret != 0)
+	{
+		printf("파일열기실패\n");
+		return;
+	}
+	fclose(fp);
+}
+
+//문자 기반 출력 : putc()
+void exam2()
+{
+	FILE* fp;
+	int  ret = fopen_s(&fp, "aaa.txt", "w");
+	if (ret != 0)
+	{
+		printf("파일열기실패\n");
+		return;
+	}
+
+	putc('A', stdout);	//putchar('A')
+	putc('A', fp);
+	putc('C', fp);
+	putc('D', fp);
+	putc('E', fp);
+	putc('\n', fp);		// '\r'(코드 줄 시작으로 이동) + '\w'(아래로 한칸 이동) 그래서 6byte가 아니라 7byte로 저장
+	putc('f', fp);
+
+	fclose(fp);
+}
+
+//문자 기발 입력 : getc()
+void exam3()
+{
+	FILE* fp;
+	int  ret = fopen_s(&fp, "aaa.txt", "r");
+	if (ret != 0)
+	{
+		printf("파일열기실패\n");
+		return;
+	}
+
+	//char ch = getc(stdin);		// 키보드 
+	char ch = getc(fp);	// A
+	ch = getc(fp); // C 자동으로 이동
+
+	putchar(ch);				// 화면
+
+	fclose(fp);
+}
+
+// [읽기]01_파일열기닫기.c
+// [쓰기]01_복사.txt
+void exam4()
+{
+	FILE* rfp, *wfp;
+	int  ret = fopen_s(&rfp, "01_파일열기닫기.c", "r");
+	if (ret != 0)
+	{
+		printf("파일열기실패\n");
+		return;
+	}
+
+	ret = fopen_s(&wfp, "01_복사.txt", "w");
+	if (ret != 0)
+	{
+		printf("파일열기실패\n");
+		return;
+	}
+
+	char ch;
+	while ((ch = getc(rfp)) != -1)		// EOf (-1)
+	{
+		// putc(ch, stdout);
+		putc(ch, wfp);
+	}
+	
+	fclose(rfp);
+	fclose(wfp);
+}
