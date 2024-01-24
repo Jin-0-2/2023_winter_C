@@ -1,0 +1,7 @@
+﻿  app.c
+  control.c
+  member.c
+  start.c
+  코드를 생성하고 있습니다...
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\0108_관리프로그램 (구조체)\102\member.c(7): warning C4716: 'member_create': 값을 반환해야 합니다.
+  102.vcxproj -> C:\Users\jjy02\OneDrive\바탕 화면\C언어\0108_관리프로그램 (구조체)\x64\Debug\102.exe

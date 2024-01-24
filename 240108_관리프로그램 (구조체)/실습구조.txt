@@ -1,0 +1,5 @@
+실습구조
+start.c : 시작함수(main)
+std.h   : h파일 포함
+app.h/ app.c : 흐름
+control.h/control.c : 기능[전역변수]
