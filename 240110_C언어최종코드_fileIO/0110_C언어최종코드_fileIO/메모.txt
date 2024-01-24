@@ -1,0 +1,14 @@
+* 초기화 과정에서 파일 Load
+            
+            프로그램이 동작 중 → 데이터는 메모리에서 관리!
+
+* 종료처리 과정에서 파일 Save
+
+      → wbfile.h / c  : 파일 save,  파일 load 함수 구현 
+                                초기화과정 : main -> app_init() → logo()
+                                                                                  → con_init()  :   배열 구조 생성
+                                                                                                            파일 load() 
+
+                               종료 과정 :  main -> app_exit() → ending()
+                                                                                  → con_exit()  :   파일 save()
+                                                                                                            배열 구조 생성 
