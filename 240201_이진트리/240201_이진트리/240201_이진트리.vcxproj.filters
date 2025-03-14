@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="스택/리스트/배열">
+      <UniqueIdentifier>{c096804d-b086-4b8b-b585-ca68bde11ef3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="19_이진트리순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20_수식나무.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="21_수식나무(1).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22_수식나무(2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="23_이진탐색트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24_이진탐색트리(1).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25_이진탐색트리에 회원정보저장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="26_해시(선형탐사법).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="27_해시(연결법).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="28_싱글톤패턴.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30_거품정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="31_선택정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="32_삽입정렬1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="81_STL(int).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="82_STL(Member).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="83_STL(Member포인터).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="84_1_STL(list).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="84_2_STL(Member).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="84_3_STL(Member포인터).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="85_STL(set,map).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="00_배열.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="01_단일연결리스트.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="02_이중연결리스트.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="03_이중연결리스트클래스.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="04_이중연결리스트템플릿.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="05_리스트컨테이너활용.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="06_환형연결리스트.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="07_배열스택.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="08_배열스택.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="09_배열템플릿.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10_배열큐.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="11_배열큐.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="12_배열템플릿.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="13_연결리스트스택.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="14_연결리스트스택.c">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="15_연결리스트스택.cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="16_스택응용(1).cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="17_스택응용(2).cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="18_스택응용(3).cpp">
+      <Filter>스택/리스트/배열</Filter>
+    </ClCompile>
+    <ClCompile Include="24_map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
