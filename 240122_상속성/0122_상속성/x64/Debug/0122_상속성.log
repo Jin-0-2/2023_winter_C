@@ -1,0 +1,4 @@
+﻿  10_확인.cpp
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\0122_상속성\0122_상속성\10_확인.cpp(89,96): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\jjy02\OneDrive\바탕 화면\C언어\0122_상속성\0122_상속성\10_확인.cpp(89,116): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  0122_상속성.vcxproj -> C:\Users\jjy02\OneDrive\바탕 화면\C언어\0122_상속성\x64\Debug\0122_상속성.exe
