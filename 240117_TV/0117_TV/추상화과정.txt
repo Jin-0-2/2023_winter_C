@@ -1,0 +1,33 @@
+추상화 과정(관점을 가지고 객체를 바라보겠다) -> 객체 정의.
+
+TV
+------------
+멤버 필드
+- power: bool
+- channel: int		// 유효범위 : 0 ~ 50
+- volume: int
+------------
+생성자
++ tv()								// power: false, channel : 2, volume : 5
++ tv(int _channel, int _volume)		// power : false, 나머지는 전달된 값으로 초기화
+
+메소드
++ get_onoff() : bool
++ get_channel() : int
++ get_volume() : int
++ print() : void
+
++ onoff() : void			// [토글]power가 true이면 flase로, flase이면 true로
++ channel_up() : void		// channel값을 1 증가
++ channel_down() : void		// channel값을 1 감소
++ channel_input(int _channel) : bool		// 전달된 숫자가 유효할 때만 channel을 변경
++ volum_up() : void			// volume값을 1 증가
++ volum_down() : void		// volume값을 1 감소
+
+(예외적 기능)
+채널 UP : 현재 채널이 50일 때  채널 UP 요청시  0번 채널로 이동
+채널 DOWN : 현재 채널이 0일 때 채널 DOWN 요청시 50번 채널로 이동
+볼륨UP :  볼륨은 30을 초과할 수  없다. (현재 볼륨이 30일 때 변경 없이 함수 종료)
+볼륨DOWN : 볼륨은 0 미만이 될 수 없다.(현재 볼륨이 0일 때 변경 없이 함수 종료)
+전원이 off인 상황에서 기능이 동작될 수 없다.
+            예) 전원이 off인 상황에서 채널, 볼륨 이동 불가
