@@ -1,0 +1,44 @@
+스택(배열)
+- LIFO(Last is First out, 후입 선출 구조)
+- 배열이나 연결리스트를 활용하여 구현
+
+- 저장 (push알고리즘,  top : 마지막으로 저장된 위치)
+0) top(4)+1 >= max(5)  >> overflow
+1) top++
+2) arr[top] = value
+
+- 삭제
+0) top(-1) == -1 >> empty
+1) top--
+2) arr[top] = value
+3) 삭제시 데이터 반환( int pop() ), 삭제만 처리 ( void pop() )
+4) 마지막 저장 데이터 반환(peek)
+
+선형큐(배열) ++ 이동
+- FIFO(First in First out, 선입 선출 구조)
+- 배열이나 연결리스트를 활용하여 구현
+- rear: 저장 위치 관리
+- front : 삭제 위치 관리
+- front 하단에 비어있는 공간이 있어도 저장 불가능
+
+원형큐(배열) 
+
+- 저장 (put, enqueue)
+0) rear = front  >> overflow
+1) arr[rear]=value
+2) rear = (rear + 1) %max
+
+- 삭제 (get, dequeue)
+0) front == rear >> empty
+1) int value = arr[front]
+2) front = (front + 1)%max
+
+단점 >> empty 와 overflow가 구분이 불가능
+
+>>개선 원형큐(배열)
+공간하나를 비운다.
+
+- 저장 (put, enqueue)
+0) (rear + 1)%amx = front  >> overflow
+1) arr[rear]=value
+2) rear = (rear + 1) %max
